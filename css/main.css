@@ -1,0 +1,115 @@
+
+.header
+{
+    position: relative;
+    background-color: #040e1c;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.welcome
+{
+    color: cyan;
+    opacity: 70%;
+    padding: 20px;
+}
+.content
+{
+    flex-direction: column;
+    background-color: #1b1f38;
+    color: white;
+}
+.intro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.picture
+{
+    opacity: 80%;
+    transition: 0.3s;
+}
+.picture:hover
+{
+    opacity: 1;
+}
+.certs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+.cert-image
+{
+    padding: 20px;
+    border: double;
+    display: flex;
+}
+.text
+{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+}
+.project1
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eatlah
+{   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.training
+{
+    display: flex;
+    padding: 10px;
+}
+.htb
+{
+    padding: 10px;
+}
+.icons
+{
+    opacity: 60%;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    top: 0px;
+}
+.icons:hover
+{
+    opacity: 1;
+    top: -5px;
+}
+.github
+{
+    padding: 20px;
+}
+.footer
+{
+    color:#4345b0;
+    flex-direction: column;
+    background-color: #222936;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.social
+{
+    justify-content: space-around;
+    display: flex;
+}
